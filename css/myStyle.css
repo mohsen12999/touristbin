@@ -298,45 +298,49 @@ i.right-icon {
     border-radius: 50%;
 }
 
-ul.facility{
+ul.facility {
     padding: 0;
     margin-top: 0.5em;
 }
-ul.facility li{
+
+ul.facility li {
     display: inline-block;
     list-style-type: none;
 }
-ul.facility li a span{
+
+ul.facility li a span {
     width: 25px;
     height: 25px;
     background: url('../images/splits.png') no-repeat 0px 0px;
     display: block;
 }
-ul.facility li a span.fan{
+
+ul.facility li a span:hover{
+    opacity: 0.6;
+}
+ul.facility li a span.fan {
     background-position: -8px -8px;
 }
 
-ul.facility li a span.hairdryer{
+ul.facility li a span.hairdryer {
     background-position: -34px -7px;
 }
 
-ul.facility li a span.iron{
+ul.facility li a span.iron {
     background-position: -63px -7px;
 }
 
-ul.facility li a span.tv{
+ul.facility li a span.tv {
     background-position: -94px -4px;
 }
-ul.facility li a span.wifi{
+
+ul.facility li a span.wifi {
     background-position: -126px -8px;
 }
 
-ul.facility li a span.coffee{
+ul.facility li a span.coffee {
     background-position: -153px -7px;
 }
-
-
-
 
 ul.item_module li.module_pic {
     float: right;
@@ -445,12 +449,14 @@ label.btn1.btn2.btn-2.btn-2g {
   } */
 
 .is-animated {
-    animation: .6s zoom-in; 
+    animation: .6s zoom-in;
     /* animation: .6s rotate-right;  */
 }
-.bottom_grid{
+
+.bottom_grid {
     padding-top: 0 !important;
 }
+
 .middle_grid {
     padding: 0 !important;
 }
