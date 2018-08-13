@@ -1,0 +1,102 @@
+.theme-payment-success-header {
+    text-align: center;
+    padding: 0 30px;
+    margin-bottom: 20px;
+}
+.theme-payment-success-header-icon {
+    font-size: 70px;
+    display: block;
+    line-height: 1em;
+    margin-bottom: 15px;
+    color: #ff6c2d;
+    text-shadow: 2px 5px 10px rgba(210,63,0,0.3);
+}
+.theme-payment-success-title {
+    font-size: 32px;
+    line-height: 1em;
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-weight: 300;
+}
+.theme-payment-success-subtitle {
+    margin-bottom: 0;
+    color: #8c8c8c;
+}
+.theme-payment-success-box {
+    -webkit-box-shadow: 0 10px 45px rgba(0,0,0,0.15), 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 45px rgba(0,0,0,0.15), 0 2px 4px rgba(0,0,0,0.1);
+    background: #fff;
+    padding: 35px 30px;
+}
+.theme-payment-success-summary {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+}
+.theme-payment-success-summary > li {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px dashed #d9d9d9;
+    position: relative;
+    color: #808080;
+}
+.theme-payment-success-summary > li > span {
+    color: #4d4d4d;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: bold;
+}
+.theme-payment-success-check-order {
+    font-size: 12px;
+    margin-top: 30px;
+    margin-bottom: 0;
+    color: #999;
+}
+.theme-payment-success-actions {
+    list-style: none;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 0;
+    overflow: hidden;
+    display: table;
+}
+.theme-payment-success-actions > li {
+    float: left;
+    margin-right: 30px;
+}
+.theme-payment-success-actions > li > a {
+    display: block;
+    text-decoration: none !important;
+    opacity: 0.5;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    color: #595959;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -ms-transition: 0.3s;
+    transition: 0.3s;
+}
+.theme-payment-success-actions > li > a:hover {
+    opacity: 1;
+    -ms-filter: none;
+    filter: none;
+}
+.theme-payment-success-actions > li .fa,
+.theme-payment-success-actions > li .far {
+    float: left;
+    margin-right: 10px;
+    font-size: 30px;
+    display: block;
+    line-height: 1em;
+}
+.theme-payment-success-actions > li p {
+    display: table;
+    margin-bottom: 0;
+    font-size: 12px;
+    line-height: 1.15em;
+    position: relative;
+    top: 3px;
+}

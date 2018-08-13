@@ -57,6 +57,12 @@
     }
 }
 
+@media (max-width:800px) {
+    .header {
+        margin-right: 0 !important;
+    }
+}
+
 @media screen and (max-width:800px) {
     .sb-search {
         left: -10px !important;
@@ -315,9 +321,10 @@ ul.facility li a span {
     display: block;
 }
 
-ul.facility li a span:hover{
+ul.facility li a span:hover {
     opacity: 0.6;
 }
+
 ul.facility li a span.fan {
     background-position: -8px -8px;
 }
@@ -460,3 +467,169 @@ label.btn1.btn2.btn-2.btn-2g {
 .middle_grid {
     padding: 0 !important;
 }
+
+.banner.littlebanner {
+    min-height: 150px !important;
+}
+
+.carousel-inner a.thumbnail {
+    margin: 0 !important;
+}
+
+.review-comment-form {
+    border: 10px solid lightsalmon;
+    padding: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    border-radius: 7px;
+}
+
+.review-comment-form p {
+    color: #787878;
+}
+
+.review-comment-form .form-group label {
+    color: green;
+}
+
+.review-comment-form .form-group {
+    margin-bottom: 25px;
+}
+
+button.btn-submit {
+    font-weight: bold;
+    line-height: 45px;
+    text-transform: uppercase;
+    width: 100%;
+    background-color: #F19E1F;
+    color: white;
+    margin-top: 10px;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+button.btn-submit:hover {
+    /* opacity: 0.6;*/
+    color: lightgray;
+    background: #7B3000;
+}
+
+.room-title-area {
+    margin-top: 30px;
+}
+
+.room-service-area {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+ul.room-services {
+    color: #bbbbbb;
+    margin-bottom: 20px;
+    padding-left: 0;
+    list-style: none;
+}
+
+ul.room-services li {
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    color: #666666;
+    float: right;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 0 7px;
+    padding: 18px 0;
+    text-align: right;
+    -webkit-width: calc(50% - 7px);
+    width: calc(50% - 7px);
+}
+
+ul.room-services li:nth-child(2n+1) {
+    margin-left: 7px;
+}
+
+ul.room-services li i {
+    font-size: 18px;
+    margin: -3px 20px 0;
+    vertical-align: middle;
+}
+
+.to input[type="text"] {
+    float: right !important;
+}
+
+.room-thumb .main h5 span {
+    display: block;
+    color: #979797;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+.list-unstyled {
+    padding: 0;
+    direction: rtl;
+    text-align: right;
+}
+
+ul.filter2 li.font-li {
+    margin-top: 10px;
+    float: right;
+}
+
+ul.filter2 li.font-li a {
+    color: lightgray;
+    font-size: 1.3em;
+    margin: .5em;
+}
+
+ul.filter2 li.font-li a:hover {
+    color: #F19E1F;
+}
+/*********************************
+     Start persiandatetimepicker
+ ********************************/
+.popover {
+    min-width: 340px;
+    font-family: Vazir;
+}
+
+[data-name="md-datetimepicker-title"] {
+    background-color: #f19e1f;
+    font-family: Vazir;
+    font-size: 20px;
+    padding: 10px;
+
+}
+
+[data-name="md-persiandatetimepicker"] button {
+    font-size: 16px;
+}
+
+[data-name="md-persiandatetimepicker"] table.table td {
+    text-align: center;
+    padding: 2px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+[data-name="md-persiandatetimepicker"] table.table tr[data-name="md-persiandatetimepicker-weekdaysnames"] td {
+    font-size: 17.5px;
+}
+
+[data-name="md-persiandatetimepicker"] table[data-name="md-persiandatetimepicker-headertable"] .dropdown-menu li {
+    font-size: 18.5px;
+}
+
+[data-name="md-datetimepicker-popovercontent"] a[data-name="go-today"] {
+    color: #333;
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+}
+/*********************************
+     End persiandatetimepicker
+ ********************************/

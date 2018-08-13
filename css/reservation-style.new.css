@@ -1,0 +1,282 @@
+.theme-payment-page-sections-item {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.theme-payment-page-signin-icon {
+    font-size: 40px;
+    display: block;
+    float: right;
+    margin-left: 12px;
+    color: #0093d2;
+}
+
+.theme-payment-page-signin-body {
+    margin-top: 2px;
+}
+
+.theme-payment-page-signin-title {
+    margin-top: 0;
+    margin-bottom: 3px;
+    font-size: 16px;
+    color: #595959;
+}
+
+.theme-payment-page-signin-subtitle {
+    margin-bottom: 0;
+    font-size: 13px;
+    opacity: 0.65;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=65)";
+    filter: alpha(opacity=65);
+}
+
+.theme-payment-page-signin-btn {
+    float: left;
+    border-radius: 2px;
+    letter-spacing: 0.75px;
+    font-size: 13px;
+    font-weight: 700;
+    top: 50%;
+    z-index: 3;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin-right: 1em;
+}
+
+.theme-payment-page-sections-item {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.theme-payment-page-item-thumb {
+    border: none;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.theme-search-results-item-hotel-room-features,
+.theme-search-results-item-hotel-room-options {
+    list-style: none;
+    margin: 0;
+    margin-top: 0px;
+    padding: 0;
+    margin-top: 10px;
+    font-size: 14px;
+    opacity: 0.85;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
+    filter: alpha(opacity=85);
+}
+
+.theme-search-results-item-hotel-room-features>li {
+    margin-bottom: 5px;
+}
+
+.theme-search-results-item-hotel-room-features>li>.fa,
+.theme-search-results-item-hotel-room-features>li>.fas {
+    text-align: center;
+    margin-left: 7px;
+    width: 20px;
+    display: inline-block;
+}
+
+.theme-search-results-item-img-wrap {
+    position: relative;
+}
+
+.theme-payment-page-item-thumb .theme-search-results-item-img {
+    max-height: 100px;
+    max-width: 100%;
+    float: right;
+    display: block;
+    width: auto;
+}
+
+.theme-payment-page-sections .theme-payment-page-sections-item:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.theme-payment-page-booking-header {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.theme-payment-page-booking-title {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.theme-payment-page-booking-subtitle {
+    width: 64%;
+    margin-bottom: 0;
+}
+
+.theme-payment-page-booking-price {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1em;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.btn-primary-inverse {
+    color: #fff !important;
+    background-color: #F19E1F;
+}
+
+.btn-primary-inverse:hover {
+    background: #ff570f !important;
+    border-color: #f04800 !important;
+}
+
+.btn:hover {
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -o-transition: 0.2s;
+    -ms-transition: 0.2s;
+    transition: 0.2s;
+}
+
+.btn:hover,
+.btn:focus,
+.btn.focus {
+    text-decoration: none !important;
+}
+
+a:active,
+a:hover {
+    outline: 0 !important;
+}
+
+._mb-10 {
+    margin-bottom: 10px !important;
+}
+
+.theme-sidebar-section {
+    background: #fff;
+    padding: 25px 30px;
+    border: 1px solid #e6e6e6;
+    border-radius: 2px;
+}
+
+.theme-sidebar-section-title {
+    margin-top: 0;
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+
+.theme-sidebar-section-summary-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    color: #808080;
+}
+
+.theme-sidebar-section-summary-list>li {
+    margin-bottom: 1em;
+}
+
+.theme-sidebar-section-summary-list>li:last-child {
+    margin-bottom: 0;
+}
+.theme-sidebar-section-charges-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+        padding-bottom: 0px;
+    padding-bottom: 10px;
+}
+.theme-sidebar-section-charges-list > li:first-child {
+    border-top: none;
+    margin-top: 0;
+    padding-top: 0;
+}
+.theme-sidebar-section-charges-list > li {
+    position: relative;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px dashed #e6e6e6;
+}
+.theme-sidebar-section-charges-item-title {
+    margin-top: 0;
+    margin-bottom: 2px;
+    font-weight: normal;
+    letter-spacing: 0;
+    font-size: 13px;
+}
+.theme-sidebar-section-charges-item-subtitle {
+    margin-bottom: 0;
+    font-size: 11px;
+    opacity: 0.65;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=65)";
+    filter: alpha(opacity=65);
+}
+.theme-sidebar-section-charges-item-price {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1em;
+}
+.theme-sidebar-section-charges-total {
+    margin-bottom: 0;
+    position: relative;
+    padding-top: 10px;
+    border-top: 1px solid #d9d9d9;
+    font-size: 13px;
+}
+.theme-sidebar-section-charges-total > span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-weight: bold;
+}
+
+.theme-sidebar-section-features-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.theme-sidebar-section-features-list > li {
+    margin-bottom: 22px;
+    position: relative;
+    padding-right: 20px;
+}
+.theme-sidebar-section-features-list > li::before {
+    line-height: 1.4em;
+    font-size: 13px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: '\f058';
+    font-family: "Font Awesome 5 Free";
+    color: #ff6c2d;
+}
+.theme-sidebar-section-features-list-title {
+    font-size: 13px;
+    margin-bottom: 5px;
+    color: #4c4c4c;
+    margin-top: 0;
+    line-height: 1.4em;
+}
+.theme-sidebar-section-features-list-body {
+    font-size: 12px;
+    margin: 0;
+    opacity: 0.75;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+    filter: alpha(opacity=75);
+}
