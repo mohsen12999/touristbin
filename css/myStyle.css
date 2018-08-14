@@ -36,62 +36,62 @@
     margin-left: 0 !important;
 }
 
-@media (max-width:1440px) {
+@media (max-width: 1440px) {
     .header {
         margin-right: 10em !important;
         margin-left: 0 !important;
     }
 }
 
-@media (max-width:1366px) {
+@media (max-width: 1366px) {
     .header {
         margin-right: 8em !important;
         margin-left: 0 !important;
     }
 }
 
-@media (max-width:1280px) {
+@media (max-width: 1280px) {
     .header {
         margin-right: 5em !important;
         margin-left: 0 !important;
     }
 }
 
-@media (max-width:800px) {
+@media (max-width: 800px) {
     .header {
         margin-right: 0 !important;
     }
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width: 800px) {
     .sb-search {
         left: -10px !important;
         right: 0 !important;
     }
 }
 
-@media (max-width:1280px) {
+@media (max-width: 1280px) {
     .sb-search {
         left: -58px !important;
         right: 0 !important;
     }
 }
 
-@media (max-width:1024px) {
+@media (max-width: 1024px) {
     .sb-search {
         left: -75px !important;
         right: 0 !important;
     }
 }
 
-@media (max-width:800px) {
+@media (max-width: 800px) {
     .sb-search {
         left: -15px !important;
         right: 0 !important;
     }
 }
 
-@media (max-width:640px) {
+@media (max-width: 640px) {
     .sb-search {
         left: 0 !important;
         right: 0 !important;
@@ -193,52 +193,52 @@ ul.filter2 li a i.little-icon:hover {
 
 i.little-icon.cooler,
 i.little-icon.cooler.disable:hover {
-    background: url(../images/cooler.png)no-repeat;
+    background: url(../images/cooler.png) no-repeat;
 }
 
 i.little-icon.cooler:hover,
 i.little-icon.cooler.disable {
-    background: url(../images/cooler_bw.png)no-repeat;
+    background: url(../images/cooler_bw.png) no-repeat;
 }
 
 i.little-icon.pool,
 i.little-icon.pool.disable:hover {
-    background: url(../images/pool.png)no-repeat;
+    background: url(../images/pool.png) no-repeat;
 }
 
 i.little-icon.pool.disable,
 i.little-icon.pool:hover {
-    background: url(../images/pool_bw.png)no-repeat;
+    background: url(../images/pool_bw.png) no-repeat;
 }
 
 i.little-icon.tv,
 i.little-icon.tv.disable:hover {
-    background: url(../images/tv.png)no-repeat;
+    background: url(../images/tv.png) no-repeat;
 }
 
 i.little-icon.tv.disable,
 i.little-icon.tv:hover {
-    background: url(../images/tv_bw.png)no-repeat;
+    background: url(../images/tv_bw.png) no-repeat;
 }
 
 i.little-icon.wifi,
 i.little-icon.wifi.disable:hover {
-    background: url(../images/wifi.png)no-repeat;
+    background: url(../images/wifi.png) no-repeat;
 }
 
 i.little-icon.wifi.disable,
 i.little-icon.wifi:hover {
-    background: url(../images/wifi_bw.png)no-repeat;
+    background: url(../images/wifi_bw.png) no-repeat;
 }
 
 i.little-icon.laundry,
 i.little-icon.laundry.disable:hover {
-    background: url(../images/laundry.png)no-repeat;
+    background: url(../images/laundry.png) no-repeat;
 }
 
 i.little-icon.laundry.disable,
 i.little-icon.laundry:hover {
-    background: url(../images/laundry_bw.png)no-repeat;
+    background: url(../images/laundry_bw.png) no-repeat;
 }
 
 i.icon {
@@ -254,37 +254,37 @@ i.icon {
 
 i.icon.house,
 i.right-icon.house {
-    background: url(../images/house.png)no-repeat;
+    background: url(../images/house.png) no-repeat;
 }
 
 i.icon.bus,
 i.right-icon.bus {
-    background: url(../images/Bus.png)no-repeat;
+    background: url(../images/Bus.png) no-repeat;
 }
 
 i.icon.hotel,
 i.right-icon.hotel {
-    background: url(../images/hotel.png)no-repeat;
+    background: url(../images/hotel.png) no-repeat;
 }
 
 i.icon.apartment,
 i.right-icon.apartment {
-    background: url(../images/Apartment.png)no-repeat;
+    background: url(../images/Apartment.png) no-repeat;
 }
 
 i.icon.restaurant,
 i.right-icon.restaurant {
-    background: url(../images/restaurant.png)no-repeat;
+    background: url(../images/restaurant.png) no-repeat;
 }
 
 i.icon.beach,
 i.right-icon.beach {
-    background: url(../images/beach.png)no-repeat;
+    background: url(../images/beach.png) no-repeat;
 }
 
 i.icon.telecabin,
 i.right-icon.telecabin {
-    background: url(../images/telecabin.png)no-repeat;
+    background: url(../images/telecabin.png) no-repeat;
 }
 
 ul.vision {
@@ -588,48 +588,106 @@ ul.filter2 li.font-li a {
 ul.filter2 li.font-li a:hover {
     color: #F19E1F;
 }
+
+/********************************
+        Start amirnajdi
+ *********************************/
+
 /*********************************
      Start persiandatetimepicker
  ********************************/
 .popover {
-    min-width: 340px;
-    font-family: Vazir;
+    min-width: 360px !important;
+    font-family: Vazir !important;
 }
 
 [data-name="md-datetimepicker-title"] {
     background-color: #f19e1f;
-    font-family: Vazir;
-    font-size: 20px;
-    padding: 10px;
+    font-family: Vazir !important;
+    font-size: 20px !important;
+    padding: 10px !important;
 
 }
 
 [data-name="md-persiandatetimepicker"] button {
-    font-size: 16px;
+    font-size: 16px !important;
 }
 
 [data-name="md-persiandatetimepicker"] table.table td {
     text-align: center;
-    padding: 2px;
-    font-size: 17px;
-    font-weight: bold;
+    padding: 5px !important;
+    font-size: 16px !important;
+    font-weight: bold !important;
 }
 
 [data-name="md-persiandatetimepicker"] table.table tr[data-name="md-persiandatetimepicker-weekdaysnames"] td {
-    font-size: 17.5px;
+    font-size: 17px !important;
 }
 
 [data-name="md-persiandatetimepicker"] table[data-name="md-persiandatetimepicker-headertable"] .dropdown-menu li {
-    font-size: 18.5px;
+    font-size: 18px !important;
 }
 
 [data-name="md-datetimepicker-popovercontent"] a[data-name="go-today"] {
-    color: #333;
-    width: 100%;
-    display: block;
-    text-decoration: none;
-    padding: 10px;
+    padding: 10px !important;
 }
+
 /*********************************
      End persiandatetimepicker
  ********************************/
+
+/********************************
+      Start villa.html
+ *******************************/
+.about_villa {
+    padding: 20px;
+    line-height: 35px;
+    margin-bottom: 5px;
+    text-align: justify;
+}
+.review-comment-form {
+    border: 5px solid #f19e1f;
+}
+.room-service-area {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+ul.room-services {
+    color: #bbbbbb;
+    margin-bottom: 20px;
+    padding-left: 0;
+    list-style: none;
+}
+ul.room-services li {
+    margin: 0 0 7px;
+    padding: 18px 0;
+    text-align: right;
+}
+@media (max-width: 768px) {
+    .about_villa {
+        padding: 0px 8px 0px 8px;
+        margin: 5px 0px 25px 0px;
+        line-height: 40px;
+    }
+
+    .review-comment-form {
+        margin-top: 30px;
+    }
+    .review-comment-form {
+        padding: 10px;
+    }
+    .room-service-area ul {
+        padding-right: 0px;
+    }
+
+    ul.room-services li {
+        width: 100%;
+    }
+}
+/********************************
+      End villa.html
+ *******************************/
+
+/*************************
+       End amirnajdi
+ *************************/
