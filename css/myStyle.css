@@ -639,30 +639,66 @@ ul.filter2 li.font-li a:hover {
 /********************************
       Start villa.html
  *******************************/
+.error_date {
+    font-family: Vazir;
+    color: red !important;
+    font-size: 12px;
+    margin-top: 10px;
+    padding: 0px;
+    margin-bottom: 0px !important;
+    display: none;
+}
+
 .about_villa {
     padding: 20px;
     line-height: 35px;
     margin-bottom: 5px;
     text-align: justify;
 }
+
 .review-comment-form {
     border: 5px solid #f19e1f;
 }
+.review-comment-form label{
+    margin-bottom: 6px;
+    font-family: Vazir !important;
+}
+.review-comment-form-input {
+    font-family: Vazir !important;
+    height: 37px;
+    line-height: 37px;
+}
+
 .room-service-area {
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
 ul.room-services {
     color: #bbbbbb;
     margin-bottom: 20px;
     padding-left: 0;
     list-style: none;
 }
+
 ul.room-services li {
     margin: 0 0 7px;
     padding: 18px 0;
     text-align: right;
 }
+
+.room-service-area .disabled {
+    opacity: 0.5;
+}
+
+.actived {
+    color: green !important;
+}
+
+.room-service-area .room-services .disabled {
+    opacity: 0.5;
+}
+
 @media (max-width: 768px) {
     .about_villa {
         padding: 0px 8px 0px 8px;
@@ -673,9 +709,11 @@ ul.room-services li {
     .review-comment-form {
         margin-top: 30px;
     }
+
     .review-comment-form {
         padding: 10px;
     }
+
     .room-service-area ul {
         padding-right: 0px;
     }
@@ -684,10 +722,110 @@ ul.room-services li {
         width: 100%;
     }
 }
+
 /********************************
       End villa.html
  *******************************/
 
+/********************************
+         Start index.htnl
+ ******************************/
+.room-thumb .content {
+    font-family: Vazir !important;
+    padding-right: 12px !important;
+}
+
+.list-unstyled {
+    direction: rtl !important;
+    float: right;
+    margin: 0px;
+}
+
+.list-unstyled li {
+    direction: rtl !important;
+    float: right !important;
+    line-height: 32px;
+    font-weight: 600;
+    font-size: 13px;
+    margin: 5px;
+}
+
+.room-thumb {
+    font-family: Vazir !important;
+}
+
+.room-thumb-title {
+    direction: rtl;
+    font-family: Vazir !important;
+    padding-top: 10px;
+    padding-right: 13px;
+    line-height: 25px;
+    text-align: right;
+    width: 100%
+}
+
+.room-thumb-title h5 {
+    font-size: 13px !important;
+    position: relative;
+    padding: 0 0 0 20px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.room-thumb-title span {
+    display: block;
+    color: #979797;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+.room-thumb-about {
+    direction: rtl !important;
+    text-align: right;
+}
+
+.room-thumb-about span {
+    font-weight: bold;
+}
+
+.room-thumb-about p {
+    font-size: 16px;
+}
+
+.room-thumb-Possibilities {
+    padding: 0px !important;
+    margin: 0px !important;
+    direction: rtl;
+}
+
+.room-thumb-Possibilities span {
+    float: right;
+    text-align: right;
+    font-weight: bold;
+}
+
+.room-thumb-btn {
+
+}
+
+/*****************************
+        End index.html
+****************************/
+/*****************************
+     Start resevation.html
+****************************/
+.theme-search-results-item-hotel-room-features{
+    font-family: Vazir !important;
+    line-height: 28px;
+}
+@media (max-width: 768px) {
+    .theme-search-results-item-hotel-room-features li{
+     width: 100%;
+    }
+}
+/*****************************
+     End resevation.html
+****************************/
 /*************************
        End amirnajdi
  *************************/
