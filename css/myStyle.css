@@ -734,22 +734,26 @@ ul.room-services li {
  ******************************/
 .room-thumb .content {
     font-family: Vazir !important;
-    padding-right: 12px !important;
+    padding: 5px 13px 0px 10px !important;
+
 }
 
 .list-unstyled {
-    direction: rtl !important;
+    margin-top: 3px;
     float: right;
-    margin: 0px;
+    padding-right: 0px !important;
+    margin-right: 10px !important;
+    direction: rtl !important;
+
 }
 
 .list-unstyled li {
+    padding-right: 0px !important;
     direction: rtl !important;
     float: right !important;
     line-height: 32px;
     font-weight: 600;
-    font-size: 13px;
-    margin: 5px;
+    font-size: 12.5px;
 }
 
 .room-thumb {
@@ -791,7 +795,11 @@ ul.room-services li {
 }
 
 .room-thumb-about p {
-    font-size: 16px;
+    font-family: Vazir !important;
+    font-size: 14.5px;
+    line-height: 35px;
+    height: 150px;
+    text-align: justify;
 }
 
 .room-thumb-Possibilities {
@@ -804,10 +812,6 @@ ul.room-services li {
     float: right;
     text-align: right;
     font-weight: bold;
-}
-
-.room-thumb-btn {
-
 }
 
 /*****************************
