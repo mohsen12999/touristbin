@@ -698,7 +698,9 @@ ul.room-services li {
 .room-service-area .room-services .disabled {
     opacity: 0.5;
 }
-
+ .actived {
+    color: green !important;
+}
 @media (max-width: 768px) {
     .about_villa {
         padding: 0px 8px 0px 8px;
