@@ -1531,7 +1531,6 @@ label.btn1.btn2.btn-2.btn-2g {
 }
 .footer-grid {
 	float: left;
-	width: 17.7%;
 	margin-right: 23%;
 }
 .last_grid {
@@ -1549,7 +1548,7 @@ ul.list1 li a{
 }
 .footer_top{
 	border-bottom: 1px solid #5b5953;
-	margin-bottom:4em;
+	margin-bottom:3em;
 	padding-bottom:4em;
 }
 .footer-grid h4 {

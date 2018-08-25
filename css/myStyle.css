@@ -397,10 +397,10 @@ label.btn1.btn2.btn-2.btn-2g {
 }
 
 .footer-grid2 {
+    font-family: Vazir !important;
     float: right;
-    width: 17.7%;
-    margin-left: 23%;
     text-align: right;
+    line-height: 33px;
 }
 
 .footer-grid2.last_grid {
@@ -659,10 +659,12 @@ ul.filter2 li.font-li a:hover {
 .review-comment-form {
     border: 5px solid #f19e1f;
 }
-.review-comment-form label{
+
+.review-comment-form label {
     margin-bottom: 6px;
     font-family: Vazir !important;
 }
+
 .review-comment-form-input {
     font-family: Vazir !important;
     height: 37px;
@@ -698,9 +700,11 @@ ul.room-services li {
 .room-service-area .room-services .disabled {
     opacity: 0.5;
 }
- .actived {
+
+.actived {
     color: green !important;
 }
+
 @media (max-width: 768px) {
     .about_villa {
         padding: 0px 8px 0px 8px;
@@ -732,10 +736,10 @@ ul.room-services li {
 /********************************
          Start index.htnl
  ******************************/
-.room-thumb .content {
-    font-family: Vazir !important;
-    padding: 5px 13px 0px 10px !important;
-
+.room-list {
+    position: relative;
+    overflow: hidden;
+    min-height: 343px;
 }
 
 .list-unstyled {
@@ -756,8 +760,17 @@ ul.room-services li {
     font-size: 12.5px;
 }
 
+.room-thumb-body {
+    float: right;
+}
+
 .room-thumb {
     font-family: Vazir !important;
+}
+
+.room-thumb .content {
+    font-family: Vazir !important;
+    padding: 5px 13px 0px 10px !important;
 }
 
 .room-thumb-title {
@@ -814,24 +827,52 @@ ul.room-services li {
     font-weight: bold;
 }
 
+@media (max-width: 768px) {
+    .room-thumb-body {
+        margin: auto;
+    }
+}
+
 /*****************************
         End index.html
 ****************************/
 /*****************************
      Start resevation.html
 ****************************/
-.theme-search-results-item-hotel-room-features{
+.theme-search-results-item-hotel-room-features {
     font-family: Vazir !important;
     line-height: 28px;
 }
+
 @media (max-width: 768px) {
-    .theme-search-results-item-hotel-room-features li{
-     width: 100%;
+    .theme-search-results-item-hotel-room-features li {
+        width: 100%;
     }
 }
+
 /*****************************
      End resevation.html
 ****************************/
+/***************************
+         Start Footer
+***************************/
+.footer_social{
+    margin-top: 20px;
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .footer-grid2{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .last_grid h4{
+        line-height: 30px;
+    }
+}
+/***************************
+         End Footer
+***************************/
 /*************************
        End amirnajdi
  *************************/
