@@ -36,62 +36,62 @@
     margin-left: 0 !important;
 }
 
-@media (max-width:1440px) {
+@media (max-width: 1440px) {
     .header {
         margin-right: 10em !important;
         margin-left: 0 !important;
     }
 }
 
-@media (max-width:1366px) {
+@media (max-width: 1366px) {
     .header {
         margin-right: 8em !important;
         margin-left: 0 !important;
     }
 }
 
-@media (max-width:1280px) {
+@media (max-width: 1280px) {
     .header {
         margin-right: 5em !important;
         margin-left: 0 !important;
     }
 }
 
-@media (max-width:800px) {
+@media (max-width: 800px) {
     .header {
         margin-right: 0 !important;
     }
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width: 800px) {
     .sb-search {
         left: -10px !important;
         right: 0 !important;
     }
 }
 
-@media (max-width:1280px) {
+@media (max-width: 1280px) {
     .sb-search {
         left: -58px !important;
         right: 0 !important;
     }
 }
 
-@media (max-width:1024px) {
+@media (max-width: 1024px) {
     .sb-search {
         left: -75px !important;
         right: 0 !important;
     }
 }
 
-@media (max-width:800px) {
+@media (max-width: 800px) {
     .sb-search {
         left: -15px !important;
         right: 0 !important;
     }
 }
 
-@media (max-width:640px) {
+@media (max-width: 640px) {
     .sb-search {
         left: 0 !important;
         right: 0 !important;
@@ -193,52 +193,52 @@ ul.filter2 li a i.little-icon:hover {
 
 i.little-icon.cooler,
 i.little-icon.cooler.disable:hover {
-    background: url(../images/cooler.png)no-repeat;
+    background: url(../images/cooler.png) no-repeat;
 }
 
 i.little-icon.cooler:hover,
 i.little-icon.cooler.disable {
-    background: url(../images/cooler_bw.png)no-repeat;
+    background: url(../images/cooler_bw.png) no-repeat;
 }
 
 i.little-icon.pool,
 i.little-icon.pool.disable:hover {
-    background: url(../images/pool.png)no-repeat;
+    background: url(../images/pool.png) no-repeat;
 }
 
 i.little-icon.pool.disable,
 i.little-icon.pool:hover {
-    background: url(../images/pool_bw.png)no-repeat;
+    background: url(../images/pool_bw.png) no-repeat;
 }
 
 i.little-icon.tv,
 i.little-icon.tv.disable:hover {
-    background: url(../images/tv.png)no-repeat;
+    background: url(../images/tv.png) no-repeat;
 }
 
 i.little-icon.tv.disable,
 i.little-icon.tv:hover {
-    background: url(../images/tv_bw.png)no-repeat;
+    background: url(../images/tv_bw.png) no-repeat;
 }
 
 i.little-icon.wifi,
 i.little-icon.wifi.disable:hover {
-    background: url(../images/wifi.png)no-repeat;
+    background: url(../images/wifi.png) no-repeat;
 }
 
 i.little-icon.wifi.disable,
 i.little-icon.wifi:hover {
-    background: url(../images/wifi_bw.png)no-repeat;
+    background: url(../images/wifi_bw.png) no-repeat;
 }
 
 i.little-icon.laundry,
 i.little-icon.laundry.disable:hover {
-    background: url(../images/laundry.png)no-repeat;
+    background: url(../images/laundry.png) no-repeat;
 }
 
 i.little-icon.laundry.disable,
 i.little-icon.laundry:hover {
-    background: url(../images/laundry_bw.png)no-repeat;
+    background: url(../images/laundry_bw.png) no-repeat;
 }
 
 i.icon {
@@ -254,37 +254,37 @@ i.icon {
 
 i.icon.house,
 i.right-icon.house {
-    background: url(../images/house.png)no-repeat;
+    background: url(../images/house.png) no-repeat;
 }
 
 i.icon.bus,
 i.right-icon.bus {
-    background: url(../images/Bus.png)no-repeat;
+    background: url(../images/Bus.png) no-repeat;
 }
 
 i.icon.hotel,
 i.right-icon.hotel {
-    background: url(../images/hotel.png)no-repeat;
+    background: url(../images/hotel.png) no-repeat;
 }
 
 i.icon.apartment,
 i.right-icon.apartment {
-    background: url(../images/Apartment.png)no-repeat;
+    background: url(../images/Apartment.png) no-repeat;
 }
 
 i.icon.restaurant,
 i.right-icon.restaurant {
-    background: url(../images/restaurant.png)no-repeat;
+    background: url(../images/restaurant.png) no-repeat;
 }
 
 i.icon.beach,
 i.right-icon.beach {
-    background: url(../images/beach.png)no-repeat;
+    background: url(../images/beach.png) no-repeat;
 }
 
 i.icon.telecabin,
 i.right-icon.telecabin {
-    background: url(../images/telecabin.png)no-repeat;
+    background: url(../images/telecabin.png) no-repeat;
 }
 
 ul.vision {
@@ -397,10 +397,10 @@ label.btn1.btn2.btn-2.btn-2g {
 }
 
 .footer-grid2 {
+    font-family: Vazir !important;
     float: right;
-    width: 17.7%;
-    margin-left: 23%;
     text-align: right;
+    line-height: 33px;
 }
 
 .footer-grid2.last_grid {
@@ -588,48 +588,370 @@ ul.filter2 li.font-li a {
 ul.filter2 li.font-li a:hover {
     color: #F19E1F;
 }
+
+/********************************
+        Start amirnajdi
+ *********************************/
+
 /*********************************
      Start persiandatetimepicker
  ********************************/
 .popover {
-    min-width: 340px;
-    font-family: Vazir;
+    min-width: 360px !important;
+    font-family: Vazir !important;
 }
 
 [data-name="md-datetimepicker-title"] {
     background-color: #f19e1f;
-    font-family: Vazir;
-    font-size: 20px;
-    padding: 10px;
+    font-family: Vazir !important;
+    font-size: 20px !important;
+    padding: 10px !important;
 
 }
 
 [data-name="md-persiandatetimepicker"] button {
-    font-size: 16px;
+    font-size: 16px !important;
 }
 
 [data-name="md-persiandatetimepicker"] table.table td {
     text-align: center;
-    padding: 2px;
-    font-size: 17px;
-    font-weight: bold;
+    padding: 5px !important;
+    font-size: 16px !important;
+    font-weight: bold !important;
 }
 
 [data-name="md-persiandatetimepicker"] table.table tr[data-name="md-persiandatetimepicker-weekdaysnames"] td {
-    font-size: 17.5px;
+    font-size: 17px !important;
 }
 
 [data-name="md-persiandatetimepicker"] table[data-name="md-persiandatetimepicker-headertable"] .dropdown-menu li {
-    font-size: 18.5px;
+    font-size: 18px !important;
 }
 
 [data-name="md-datetimepicker-popovercontent"] a[data-name="go-today"] {
-    color: #333;
-    width: 100%;
-    display: block;
-    text-decoration: none;
-    padding: 10px;
+    padding: 10px !important;
 }
+
 /*********************************
      End persiandatetimepicker
  ********************************/
+
+/********************************
+      Start villa.html
+ *******************************/
+.error_date {
+    font-family: Vazir;
+    color: red !important;
+    font-size: 12px;
+    margin-top: 10px;
+    padding: 0px;
+    margin-bottom: 0px !important;
+    display: none;
+}
+
+.about_villa {
+    padding: 20px;
+    line-height: 35px;
+    margin-bottom: 5px;
+    text-align: justify;
+}
+
+.review-comment-form {
+    border: 5px solid #f19e1f;
+}
+
+.review-comment-form label {
+    margin-bottom: 6px;
+    font-family: Vazir !important;
+}
+
+.review-comment-form-input {
+    font-family: Vazir !important;
+    height: 37px;
+    line-height: 37px;
+}
+
+.room-service-area {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+ul.room-services {
+    color: #bbbbbb;
+    margin-bottom: 20px;
+    padding-left: 0;
+    list-style: none;
+}
+
+ul.room-services li {
+    margin: 0 0 7px;
+    padding: 18px 0;
+    text-align: right;
+}
+
+.room-service-area .disabled {
+    opacity: 0.5;
+}
+
+.actived {
+    color: green !important;
+}
+
+.room-service-area .room-services .disabled {
+    opacity: 0.5;
+}
+
+.actived {
+    color: green !important;
+}
+
+@media (max-width: 768px) {
+    .about_villa {
+        padding: 0px 8px 0px 8px;
+        margin: 5px 0px 25px 0px;
+        line-height: 40px;
+    }
+
+    .review-comment-form {
+        margin-top: 30px;
+    }
+
+    .review-comment-form {
+        padding: 10px;
+    }
+
+    .room-service-area ul {
+        padding-right: 0px;
+    }
+
+    ul.room-services li {
+        width: 100%;
+    }
+}
+
+/********************************
+      End villa.html
+ *******************************/
+
+/********************************
+         Start index.htnl
+ ******************************/
+.room-list {
+    position: relative;
+    overflow: hidden;
+    min-height: 343px;
+}
+
+.list-unstyled {
+    margin-top: 3px;
+    float: right;
+    padding-right: 0px !important;
+    margin-right: 10px !important;
+    direction: rtl !important;
+
+}
+
+.list-unstyled li {
+    padding-right: 0px !important;
+    direction: rtl !important;
+    float: right !important;
+    line-height: 32px;
+    font-weight: 600;
+    font-size: 12.5px;
+}
+
+.room-thumb-body {
+    float: right;
+}
+
+.room-thumb {
+    font-family: Vazir !important;
+}
+
+.room-thumb .content {
+    font-family: Vazir !important;
+    padding: 5px 13px 0px 10px !important;
+}
+
+.room-thumb-title {
+    direction: rtl;
+    font-family: Vazir !important;
+    padding-top: 10px;
+    padding-right: 13px;
+    line-height: 25px;
+    text-align: right;
+    width: 100%
+}
+
+.room-thumb-title h5 {
+    font-size: 13px !important;
+    position: relative;
+    padding: 0 0 0 20px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.room-thumb-title span {
+    display: block;
+    color: #979797;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+.room-thumb-about {
+    direction: rtl !important;
+    text-align: right;
+}
+
+.room-thumb-about span {
+    font-weight: bold;
+}
+
+.room-thumb-about p {
+    font-family: Vazir !important;
+    font-size: 14.5px;
+    line-height: 35px;
+    height: 150px;
+    text-align: justify;
+}
+
+.room-thumb-Possibilities {
+    padding: 0px !important;
+    margin: 0px !important;
+    direction: rtl;
+}
+
+.room-thumb-Possibilities span {
+    float: right;
+    text-align: right;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .room-thumb-body {
+        margin: auto;
+    }
+}
+
+/*****************************
+        End index.html
+****************************/
+/*****************************
+     Start resevation.html
+****************************/
+.theme-search-results-item-hotel-room-features {
+    font-family: Vazir !important;
+    line-height: 30px;
+}
+.theme-search-results-item-hotel-room-features li {
+    font-size: 16px;
+}
+.theme-sidebar-section-title {
+    font-size: 18px;
+}
+
+.theme-sidebar-section-summary-list {
+    font-size: 14.5px !important;
+}
+
+.theme-sidebar-section-charges-item {
+    font-family: Vazir !important;
+}
+
+.theme-sidebar-section-charges-item-title {
+    margin-bottom: 8px !important;;
+    font-size: 14.5px !important;
+}
+
+.theme-sidebar-section-charges-item-subtitle {
+    font-size: 12.5px !important;
+}
+
+.theme-sidebar-section-charges-item-price {
+    font-size: 14.5px !important;
+}
+
+.theme-sidebar-section-charges-total {
+    font-size: 14.5px !important;
+}
+.theme-sidebar-section-features-list-title{
+    font-size: 15px !important;
+}
+.theme-sidebar-section-features-list-body{
+    font-size: 15px !important;
+    line-height: 30px !important;
+}
+.theme-payment-page-booking-subtitle{
+    line-height: 28px;
+}
+@media (max-width: 768px) {
+    .theme-search-results-item-hotel-room-features li {
+        width: 100%;
+    }
+
+    .theme-payment-page-item-thumb .theme-search-results-item-img {
+        width: 100% !important;
+        min-height: 180px !important;
+        max-height: 200px !important;
+    }
+
+    .theme-payment-page-signin-title {
+        font-size: 15.5px !important;
+        line-height: 23px !important;
+    }
+
+    .theme-payment-page-signin-subtitle {
+        margin-bottom: 30px !important;
+    }
+
+    .theme-payment-page-sections-item-input {
+        width: 100% !important;
+    }
+
+    .theme-payment-page-booking-title {
+        width: 100% !important;
+        margin-bottom: 10px !important;
+    }
+
+    .theme-payment-page-booking-subtitle {
+        width: 100% !important;
+        line-height: 30px;
+    }
+
+    .theme-payment-page-booking-price {
+        width: 100% !important;
+        text-align: left;
+        margin-top: 20px;
+        font-size: 25px !important;
+    }
+}
+
+/*****************************
+     End resevation.html
+****************************/
+/***************************
+         Start Footer
+***************************/
+.footer_social {
+    margin-top: 20px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .footer-grid2 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .last_grid h4 {
+        line-height: 30px;
+    }
+}
+
+/***************************
+         End Footer
+***************************/
+/*************************
+       End amirnajdi
+ *************************/
