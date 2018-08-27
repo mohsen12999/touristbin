@@ -17,7 +17,8 @@ https://github.com/mohsen12999/touristbin/
  - [ ] contact page
  - [ ] about us
  - [ ] change menu to => main about contact
- - [ ] admin page
+ ------
+ - [ ] admin page theme
  - [ ] design database
-
+ ------
  - [ ] back end
