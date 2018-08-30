@@ -751,6 +751,18 @@ ul.room-services li {
 
 }
 
+.room-thumb-btn {
+    background-color: #f19e1f;
+    color: #ffffff;
+    font-family: Vazir !important;
+    font-size: 16px;
+}
+
+.room-thumb-btn:hover {
+    background-color: #f16a05;
+    color: #ffffff;
+}
+
 .list-unstyled li {
     padding-right: 0px !important;
     direction: rtl !important;
@@ -930,7 +942,8 @@ ul.room-services li {
         margin-top: 20px;
         font-size: 25px !important;
     }
-    .theme-sidebar-section:first-child{
+
+    .theme-sidebar-section:first-child {
         margin-top: 15px !important;
     }
 }
