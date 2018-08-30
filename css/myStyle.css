@@ -843,9 +843,11 @@ ul.room-services li {
     font-family: Vazir !important;
     line-height: 30px;
 }
+
 .theme-search-results-item-hotel-room-features li {
     font-size: 16px;
 }
+
 .theme-sidebar-section-title {
     font-size: 18px;
 }
@@ -874,16 +876,20 @@ ul.room-services li {
 .theme-sidebar-section-charges-total {
     font-size: 14.5px !important;
 }
-.theme-sidebar-section-features-list-title{
+
+.theme-sidebar-section-features-list-title {
     font-size: 15px !important;
 }
-.theme-sidebar-section-features-list-body{
+
+.theme-sidebar-section-features-list-body {
     font-size: 15px !important;
     line-height: 30px !important;
 }
-.theme-payment-page-booking-subtitle{
+
+.theme-payment-page-booking-subtitle {
     line-height: 28px;
 }
+
 @media (max-width: 768px) {
     .theme-search-results-item-hotel-room-features li {
         width: 100%;
@@ -923,6 +929,9 @@ ul.room-services li {
         text-align: left;
         margin-top: 20px;
         font-size: 25px !important;
+    }
+    .theme-sidebar-section:first-child{
+        margin-top: 15px !important;
     }
 }
 

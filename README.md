@@ -12,7 +12,7 @@ https://mohsen12999.github.io/touristbin/
 https://github.com/mohsen12999/touristbin/
 
 ## to do list
- - [ ] margin in reserve page
+ - [ x ] margin in reserve page
  - [ ] buttom color in index
  - [ ] contact page
  - [ ] about us
