@@ -16,7 +16,7 @@ https://github.com/mohsen12999/touristbin/
  - [x] buttom color in index
  - [ ] contact page
  - [ ] about us
- - [ ] change menu to => main about contact
+ - [x] change menu to => main about contact
  ------
  - [ ] admin page theme
  - [ ] design database
