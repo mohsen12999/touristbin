@@ -14,7 +14,7 @@ https://github.com/mohsen12999/touristbin/
 ## to do list
  - [x] margin in reserve page
  - [x] buttom color in index
- - [ ] contact page
+ - [x] contact page
  - [ ] about us
  - [x] change menu to => main about contact
  ------
