@@ -9,15 +9,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 <head>
     <title>توریست بین | معرفی امکانات توریستی شهر ها و مناطق توریستی</title>
-    <link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <!-- Custom Theme files -->
-    <link href="css/style.css" rel='stylesheet' type='text/css'/>
-    <link href="css/myStyle.css" rel='stylesheet' type='text/css'/>
+    <link href="css/style.css" rel='stylesheet' type='text/css' />
+    <link href="css/myStyle.css" rel='stylesheet' type='text/css' />
     <!-- Custom Theme files -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <meta name="keywords" content="Hotel, Villa, Restaurant, Motel, Cafe, رستوران, هتل, کافه, متل, هتل آپارتمان, ویلا"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Hotel, Villa, Restaurant, Motel, Cafe, رستوران, هتل, کافه, متل, هتل آپارتمان, ویلا" />
     <script type="application/x-javascript">
         addEventListener("load", function () {
             setTimeout(hideURLbar, 0);
@@ -34,167 +34,286 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <script src="js/jquery.easydropdown.js"></script>
     <!--Animation-->
     <script src="js/wow.min.js"></script>
-    <link href="css/animate.css" rel='stylesheet' type='text/css'/>
-    <link href="css/room-thumb.css" rel='stylesheet' type='text/css'/>
+    <link href="css/animate.css" rel='stylesheet' type='text/css' />
+    <link href="css/room-thumb.css" rel='stylesheet' type='text/css' />
     <script>
         new WOW().init();
     </script>
 
-    <link href="css/all.css" rel='stylesheet' type='text/css'/>
+    <link href="css/all.css" rel='stylesheet' type='text/css' />
+
+    <link type="text/css" rel="stylesheet" href="select2/css/select2.min.css">
+    <script src="select2/js/select2.min.js"></script>
+
+    <script src="js/bootstrap.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/MdBootstrapPersianDateTimePicker/jquery.Bootstrap-PersianDateTimePicker.css" />
+    <script src="js/MdBootstrapPersianDateTimePicker/jalaali.js"></script>
+    <script src="js/MdBootstrapPersianDateTimePicker/jquery.Bootstrap-PersianDateTimePicker.js"></script>
 </head>
 
 <body>
-<div class="header">
-    <div class="col-sm-8 header-left pull-right">
-        <div class="logo pull-right">
-            <a href="index.html">
-                <img src="images/logo3.png" alt=""/>
-            </a>
-        </div>
-        <!---Start Menu--->
-        <div class="menu pull-left">
-            <a class="toggleMenu" href="#">
-                <img src="images/nav.png" alt=""/>
-            </a>
-            <ul class="nav myDirection persianFont" id="nav">
-                <li class="active">
-                    <a href="index.html">صفحه اصلی</a>
-                </li>
-                <li>
-                    <a href="404.html">درباره ما</a>
-                </li>
-                <li>
-                    <a href="contact.html">تماس با ما</a>
-                </li>
-                <div class="clearfix"></div>
-            </ul>
-            <script type="text/javascript" src="js/responsive-nav.js">
-            </script>
-        </div>
-        <!---End Menu--->
-        <!-- start search-->
-        <div class="search-box">
-            <div id="sb-search" class="sb-search">
-                <form>
-                    <input class="sb-search-input persianFont myDirection" placeholder="جستجو ..." type="search"
-                           name="search" id="search">
-                    <input class="sb-search-submit" type="submit" value="">
-                    <span class="sb-icon-search"> </span>
-                </form>
+    <div class="header">
+        <div class="col-sm-8 header-left pull-right">
+            <div class="logo pull-right">
+                <a href="index.html">
+                    <img src="images/logo3.png" alt="" />
+                </a>
             </div>
-        </div>
-        <!----search-scripts---->
-        <script src="js/classie.js">
-        </script>
-        <script src="js/uisearch.js">
-        </script>
-        <script>
-            new UISearch(document.getElementById('sb-search'));
-        </script>
-        <!----//search-scripts---->
-        <div class="clearfix"></div>
-    </div>
-    <div class="col-sm-4 header_right pull-left">
-        <div id="loginContainer" class="pull-left">
-            <a href="#" id="loginButton" class="pull-right">
-                <span class="persianFont">ورود</span>
-                <img src="images/login.png">
-
-            </a>
-            <div id="loginBox">
-                <form id="loginForm" class="myDirection persianFont">
-                    <fieldset id="body">
-                        <fieldset>
-                            <label for="email">آدرس ایمیل:</label>
-                            <input class="myDirection2" type="text" name="email" id="email">
-                        </fieldset>
-                        <fieldset>
-                            <label for="password">پسورد:</label>
-                            <input class="myDirection2" type="password" name="password" id="password">
-                        </fieldset>
-                        <label for="checkbox">
-                            <input type="checkbox" id="checkbox">
-                            <i class="little-right-padding">ذخیره پسورد</i>
-                        </label>
-                        <input type="submit" id="login" value="ورود">
-
-                    </fieldset>
-                    <span>
-							<a class="btn" href="#">بازیابی کلمه عبور</a>
-						</span>
-                </form>
-            </div>
-        </div>
-        <div class="clearfix"></div>
-    </div>
-    <div class="clearfix"></div>
-</div>
-<div class="banner">
-    <div class="container_wrap myDirection">
-        <h1 class="persianFont">دنبال چه چیزی هستید؟</h1>
-        <div class="dropdown-buttons">
-            <div class="dropdown-button persianFont">
-                <select class="dropdown" tabindex="9" data-settings='{"wrapperClass":"flat"}'>
-                    <option value="0">همه جا</option>
-                    <option value="1">رامسر</option>
-                    <option value="2">تنکابن</option>
-                    <option value="3">چالوس</option>
-                    <!-- <option value="3"> New Zealand</option>
-                    <option value="4">Pakistan</option>
-                    <option value="5">United Kingdom</option>
-                    <option value="6">United states</option>
-                    <option value="7">Russia</option>
-                    <option value="8">Mirum</option> -->
-                </select>
-            </div>
-            <div class="dropdown-button persianFont">
-                <select class="dropdown" tabindex="9" data-settings='{"wrapperClass":"flat"}'>
-                    <option value="0">همه چی</option>
-                    <option value="1">هتل</option>
-                    <option value="2">ویلا</option>
-                    <option value="3">هتل آپارتمان</option>
-                    <option value="4">رستوران</option>
-                    <option value="5">تورهای شهری</option>
-                    <option value="6">مطالب</option>
-                    <!-- <option value="3">maxim </option>
-                    <option value="4">mutationem</option>
-                    <option value="5">hendrerit </option>
-                    <option value="5"> </option>
-                    <option value="5"> </option> -->
-                </select>
-            </div>
-        </div>
-        <form>
-            <input class="persianFont" type="text" value="نام، آدرس، منطقه و ..." onfocus="this.value = '';"
-                   onblur="if (this.value == '') {this.value = 'نام، آدرس، منطقه و ...';}">
-            <div class="contact_btn">
-                <label class="btn1 btn-2 btn-2g">
-                    <input class="persianFont" name="submit" type="submit" id="submit" value="جستجو">
-                </label>
-            </div>
-        </form>
-        <div class="clearfix"></div>
-    </div>
-</div>
-<div class="content_top">
-    <div class="container">
-        <div class="col-md-4 col-xs-12 bottom_nav pull-right">
-            <div class="content_menu myDirection persianFont">
-                <ul>
-                    <li>در جستجوی:</li>
+            <!---Start Menu--->
+            <div class="menu pull-left">
+                <a class="toggleMenu" href="#">
+                    <img src="images/nav.png" alt="" />
+                </a>
+                <ul class="nav myDirection persianFont" id="nav">
                     <li class="active">
-                        <a href="#">
-                            <i class="fas fa-grip-horizontal"></i> همه چیز</a>
+                        <a href="index.html">صفحه اصلی</a>
                     </li>
                     <li>
-                        <a href="#">
-                            <i class="fa fa-home"></i> ویلا</a>
+                        <a href="404.html">درباره ما</a>
                     </li>
                     <li>
-                        <a href="#">
-                            <i class="fa fa-hotel"></i> هتل</a>
+                        <a href="contact.html">تماس با ما</a>
                     </li>
-                    <!-- <li>
+                    <div class="clearfix"></div>
+                </ul>
+                <script type="text/javascript" src="js/responsive-nav.js">
+                </script>
+            </div>
+            <!---End Menu--->
+            <!-- start search-->
+            <div class="search-box">
+                <div id="sb-search" class="sb-search">
+                    <form>
+                        <input class="sb-search-input persianFont myDirection" placeholder="جستجو ..." type="search"
+                            name="search" id="search">
+                        <input class="sb-search-submit" type="submit" value="">
+                        <span class="sb-icon-search"> </span>
+                    </form>
+                </div>
+            </div>
+            <!----search-scripts---->
+            <script src="js/classie.js">
+            </script>
+            <script src="js/uisearch.js">
+            </script>
+            <script>
+                new UISearch(document.getElementById('sb-search'));
+        </script>
+            <!----//search-scripts---->
+            <div class="clearfix"></div>
+        </div>
+        <div class="col-sm-4 header_right pull-left">
+            <div id="loginContainer" class="pull-left">
+                <a href="#" id="loginButton" class="pull-right">
+                    <span class="persianFont">ورود</span>
+                    <img src="images/login.png">
+
+                </a>
+                <div id="loginBox">
+                    <form id="loginForm" class="myDirection persianFont">
+                        <fieldset id="body">
+                            <fieldset>
+                                <label for="email">آدرس ایمیل:</label>
+                                <input class="myDirection2" type="text" name="email" id="email">
+                            </fieldset>
+                            <fieldset>
+                                <label for="password">پسورد:</label>
+                                <input class="myDirection2" type="password" name="password" id="password">
+                            </fieldset>
+                            <label for="checkbox">
+                                <input type="checkbox" id="checkbox">
+                                <i class="little-right-padding">ذخیره پسورد</i>
+                            </label>
+                            <input type="submit" id="login" value="ورود">
+
+                        </fieldset>
+                        <span>
+                            <a class="btn" href="#">بازیابی کلمه عبور</a>
+                        </span>
+                    </form>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="banner" style="padding-top:9em; min-height: 450px ">
+        <div class="container_wrap myDirection" style="width:90% !important">
+            <h1 class="persianFont" style="text-align: right;padding: 0 1em;">رزرو و اجاره هتل، هتل آپارتمان و ویلا</h1>
+            <div class="search-div">
+                <select class="js-example-basic persianFont" name="states[]" multiple="multiple">
+                    <option value="AL">رامسر، مازندران</option>
+                    <option value="WY">تنکابن، مازندران</option>
+                    <option value="WY">چالوس، مازندران</option>
+                </select>
+
+                <!-- <input type="text" list="citylist" class="persianFont location" placeholder="مکان مسافرت"/>
+                <datalist id="citylist">
+                    <option value="همه جا">
+                    <option value="رامسر، مازندران">
+                    <option value="تنکابن، مازندران">
+                    <option value="چالوس، مازندران">
+                </datalist> -->
+            
+                <input style="text-align: center;" type="text" class="form-control review-comment-form-input search" id="fromDate1"
+                    placeholder="از تاریخ" data-mddatetimepicker="true" data-trigger="click" data-targetselector="#fromDate1"
+                    data-groupid="group1" data-fromdate="true" data-enabletimepicker="false" data-placement="bottom"
+                    data-disablebeforetoday="true" readonly />
+                    
+                <input style="text-align: center;" type="text"
+                    class="form-control review-comment-form-input  search" id="toDate1"
+                    placeholder="تا تاریخ" data-mddatetimepicker="true"
+                    data-trigger="click" data-targetselector="#toDate1" data-groupid="group1"
+                    data-todate="true" data-enabletimepicker="false"
+                    data-placement="bottom"/>
+            
+                <input type="text" class="persianFont people" style="width:15%;border-radius: 5%" placeholder="تعداد افراد" />
+                <button class="persianFont search-btn">جستجو</button>
+                <style>
+                    
+                div.search-div>input,
+                div.search-div>button{
+                    margin-left: 1em;
+                }
+                button.search-btn{
+                    border: none;
+                    font-family: inherit;
+                    font-size: inherit;
+                    color: inherit;
+                    background: none;
+                    cursor: pointer;
+                    padding: 15px 30px;
+                    display: inline-block;
+                    text-transform: uppercase;
+                    letter-spacing: 1px;
+                    font-weight: 500;
+                    outline: none;
+                    position: relative;
+                    -webkit-transition: all 0.3s;
+                    -moz-transition: all 0.3s;
+                    transition: all 0.3s;
+                    background: #F19E1F;
+                    color: #fff;
+                    font-size: 1.1em;
+                    text-shadow: -1px 0px 1px rgba(214, 214, 214, 0.59);
+                    -webkit-text-shadow: -1px 0px 1px rgba(214, 214, 214, 0.59);
+                    -moz-text-shadow: -1px 0px 1px rgba(214, 214, 214, 0.59);
+                    -o-text-shadow: -1px 0px 1px rgba(214, 214, 214, 0.59);
+                    border-radius: 35px;
+                }
+                button.search-btn:hover{
+                    box-shadow: 0 0 6px gray;
+                    background: #B17A26;
+                }
+
+                select.js-example-basic{
+                    width:30% !important;
+                }
+                .select2-container--default .select2-selection--multiple{
+                    background: rgba(111, 111, 111, 0.17) !important;
+                    background-image: url('images/material-icon/baseline_place_black_18dp.png') !important;
+                    background-repeat: no-repeat !important;
+                    background-position-x: right !important;
+                    background-position-y: center !important;
+                    padding-right: 40px !important;
+
+                    border: 1px solid #fff;
+                    outline: none;
+                    font-size: 1.1em;
+                    padding: 11px;
+
+                    border-radius: 5%;
+                    -webkit-border-radius: 5%;
+                    -moz-border-radius: 5%;
+                    -o-border-radius: 5%;
+
+                    color: #fff;
+                    font-family: Vazir;
+
+                    margin-left: 0.5em;
+                }
+
+                .select2-container--default .select2-selection--multiple .select2-selection__choice{
+                    background-color: transparent;
+                }
+                .select2-container--default[dir="rtl"] .select2-selection--multiple .select2-selection__choice__remove{
+                    float: left;
+                    margin-right: 5px;
+                }
+
+                .select2-results li{
+                    font-family: Vazir;
+                }
+
+                .location,
+                input.search,
+                input.people{
+                    background: rgba(111, 111, 111, 0.17);
+                    transition: border-color 0.3s;
+                    -o-transition: border-color 0.3s;
+                    -ms-transition: border-color 0.3s;
+                    -moz-transition: border-color 0.3s;
+                    -webkit-transition: border-color 0.3s;
+                    -webkit-appearance: none;
+                    border: 1px solid #fff;
+                    outline: none;
+                    font-size: 1.1em;
+                    padding: 17px;
+                    color: #fff;
+                    text-transform: lowercase;
+                    border-radius: 5% 3% !important;
+                    -webkit-border-radius: 5% 3%  !important;
+                    -moz-border-radius: 5% 3%  !important;
+                    -o-border-radius: 5% 3%  !important;
+                    font-weight: 300;
+                    background-repeat: no-repeat !important;
+                    background-position-x: right !important;
+                    background-position-y: center !important;
+                    padding-right: 40px !important;
+
+                    margin-left: 0.5em !important;
+                    display: inline;
+                }
+                .location
+                {
+                    width:30% !important;
+                    background-image:url('images/material-icon/baseline_place_black_18dp.png') !important;
+                }
+                input.search{
+                    width:15% !important;
+                    background-image:url('images/material-icon/baseline_calendar_today_black_18dp.png') !important;
+                    padding: 29px !important;
+                }
+                input.people{
+                    width:15% !important;
+                    background-image:url('images/material-icon/baseline_group_black_18dp.png') !important;
+                }
+            </style>
+            </div>
+
+
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div class="content_top">
+        <div class="container">
+            <div class="col-md-4 col-xs-12 bottom_nav pull-right">
+                <div class="content_menu myDirection persianFont">
+                    <ul>
+                        <li>در جستجوی:</li>
+                        <li class="active">
+                            <a href="#">
+                                <i class="fas fa-grip-horizontal"></i> همه چیز</a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-home"></i> ویلا</a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-hotel"></i> هتل</a>
+                        </li>
+                        <!-- <li>
                         <a href="#">هتل آپارتمان</a>
                     </li>
                     <li>
@@ -203,11 +322,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     <li>
                         <a href="#"></a>
                     </li> -->
-                </ul>
+                    </ul>
+                </div>
             </div>
-        </div>
-        <div class="col-md-4 col-xs-12 content_dropdown1 pull-right myDirection">
-            <!-- <div id="cityDiv" class="content_dropdown persianFont">
+            <div class="col-md-4 col-xs-12 content_dropdown1 pull-right myDirection">
+                <!-- <div id="cityDiv" class="content_dropdown persianFont">
                 <select class="dropdown" tabindex="10" data-settings='{"wrapperClass":"metro"}'>
                     <option value="all">همه جا</option>
                     <option value="ramsar">رامسر</option>
@@ -226,229 +345,236 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     <option value="article">مطالب</option>
                 </select>
             </div> -->
-            <div class="content_menu myDirection persianFont">
-                <ul>
-                    <li>موقعیت مکانی:</li>
-                    <li class="active">
-                        <a href="#">
-                            <i class="fas fa-map-marked-alt"></i> همه جا</a>
+                <div class="content_menu myDirection persianFont">
+                    <ul>
+                        <li>موقعیت مکانی:</li>
+                        <li class="active">
+                            <a href="#">
+                                <i class="fas fa-map-marked-alt"></i> همه جا</a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-map-marker"></i> رامسر</a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-map-marker"></i> نشتارود</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-12 filter_grid pull-left">
+                <ul class="filter2">
+                    <li class="fil persianFont myDirection">تسهیلات:</li>
+                    <li class="font-li">
+                        <a href="#" title="اینترنت بی سیم">
+                            <i class="fa fa-wifi"></i>
+                        </a>
                     </li>
-                    <li>
-                        <a href="#">
-                            <i class="fas fa-map-marker"></i> رامسر</a>
+                    <li class="font-li">
+                        <a href="#" title="کولر">
+                            <i class="fas fa-snowflake"></i>
+                        </a>
                     </li>
-                    <li>
-                        <a href="#">
-                            <i class="fas fa-map-marker"></i> نشتارود</a>
+                    <li class="font-li">
+                        <a href="#" title="استخر">
+                            <i class="fas fa-swimming-pool"></i>
+                        </a>
+                    </li>
+                    <li class="font-li">
+                        <a href="#" title="تلویزیون">
+                            <i class="fa fa-tv"></i>
+                        </a>
                     </li>
                 </ul>
             </div>
         </div>
-        <div class="col-md-4 col-xs-12 filter_grid pull-left">
-            <ul class="filter2">
-                <li class="fil persianFont myDirection">تسهیلات:</li>
-                <li class="font-li">
-                    <a href="#" title="اینترنت بی سیم">
-                        <i class="fa fa-wifi"></i>
-                    </a>
-                </li>
-                <li class="font-li">
-                    <a href="#" title="کولر">
-                        <i class="fas fa-snowflake"></i>
-                    </a>
-                </li>
-                <li class="font-li">
-                    <a href="#" title="استخر">
-                        <i class="fas fa-swimming-pool"></i>
-                    </a>
-                </li>
-                <li class="font-li">
-                    <a href="#" title="تلویزیون">
-                        <i class="fa fa-tv"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
     </div>
-</div>
-<div class="content_middle">
-    <div class="container">
-        <div class="content_middle_box">
-            <div class="top_grid">
-                <div class="rooms" style="margin-top:110px; ">
-                    <div class="row room-list isotope  " >
-                        <!-- Room -->
-                        <div class="col-lg-4 col-sm-12 room-thumb-body ">
-                            <div class="room-thumb">
-                                <img width="356" height="228" src="images/villa/norozi/room.jpg"
-                                     class="img-responsive wp-post-image" alt="">
-                                <div class="mask">
-                                    <div class="main">
-                                        <div class="price pull-left">
-                                            <i class="fas fa-home"></i>
-                                            <span class="persianFont">ویلا</span>
+    <div class="content_middle">
+        <div class="container">
+            <div class="content_middle_box">
+                <div class="top_grid">
+                    <div class="rooms" style="margin-top:110px; ">
+                        <div class="row room-list isotope  ">
+                            <!-- Room -->
+                            <div class="col-lg-4 col-sm-12 room-thumb-body ">
+                                <div class="room-thumb">
+                                    <img width="356" height="228" src="images/villa/norozi/room.jpg" class="img-responsive wp-post-image"
+                                        alt="">
+                                    <div class="mask">
+                                        <div class="main">
+                                            <div class="price pull-left">
+                                                <i class="fas fa-home"></i>
+                                                <span class="persianFont">ویلا</span>
+                                            </div>
+                                            <div class="room-thumb-title">
+                                                <h5>ویلای آقای نوروزی</h5>
+                                                <span>از 150 هزار تومان</span>
+                                            </div>
                                         </div>
-                                        <div class="room-thumb-title">
-                                            <h5>ویلای آقای نوروزی</h5>
-                                            <span>از 150 هزار تومان</span>
-                                        </div>
-                                    </div>
 
-                                    <div class="content">
-                                        <div class="room-thumb-about" >
-                                            <span>مشخصات ویلا</span>
-                                            <p> لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه مجله در ستون و سطر آنچنان که لازم.</p>
+                                        <div class="content">
+                                            <div class="room-thumb-about">
+                                                <span>مشخصات ویلا</span>
+                                                <p> لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                                                    استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه مجله در
+                                                    ستون و سطر آنچنان که لازم.</p>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                            <a href="villa.html" class="btn  btn-block room-thumb-btn"> رزرو ویلا </a>
                                         </div>
-                                        <div class="clearfix"></div>
-                                        <a href="villa.html" class="btn  btn-block room-thumb-btn"> رزرو ویلا </a>
                                     </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <!-- Hotel -->
-                        <div class="col-lg-4 col-sm-12 room-thumb-body ">
-                            <div class="room-thumb">
-                                <img width="356" height="228" src="images/hotel/room.jpg"
-                                     class="img-responsive wp-post-image" alt="">
-                                <div class="mask">
-                                    <div class="main">
-                                        <div class="price pull-left">
-                                            <i class="fas fa-hotel"></i>
-                                            <span class="persianFont">هتل</span>
+                            <!-- Hotel -->
+                            <div class="col-lg-4 col-sm-12 room-thumb-body ">
+                                <div class="room-thumb">
+                                    <img width="356" height="228" src="images/hotel/room.jpg" class="img-responsive wp-post-image"
+                                        alt="">
+                                    <div class="mask">
+                                        <div class="main">
+                                            <div class="price pull-left">
+                                                <i class="fas fa-hotel"></i>
+                                                <span class="persianFont">هتل</span>
+                                            </div>
+                                            <div class="room-thumb-title">
+                                                <h5>هتل نشتارود</h5>
+                                                <span>شامل اتاق و سوئیت</span>
+                                            </div>
                                         </div>
-                                        <div class="room-thumb-title">
-                                            <h5>هتل نشتارود</h5>
-                                            <span>شامل اتاق و سوئیت</span>
+                                        <div class="content">
+                                            <div class="room-thumb-about">
+                                                <span>مشخصات ویلا</span>
+                                                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                                                    استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه مجله در
+                                                    ستون و سطر آنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز
+                                                    و کاربردهای.</p>
+                                            </div>
+                                            <a href="hotel.html" class="btn  btn-block room-thumb-btn">رزرو هتل</a>
                                         </div>
-                                    </div>
-                                    <div class="content">
-                                        <div class="room-thumb-about" >
-                                            <span>مشخصات ویلا</span>
-                                        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه مجله در ستون و سطر آنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای.</p>
-                                        </div>
-                                        <a href="hotel.html" class="btn  btn-block room-thumb-btn">رزرو هتل</a>
                                     </div>
                                 </div>
                             </div>
-                        </div>
 
+                        </div>
                     </div>
+                    <div class="clearfix"></div>
                 </div>
-                <div class="clearfix"></div>
             </div>
-        </div>
 
-        <div class="offering">
-            <h2 class="persianFont myDirection">خدمات ما</h2>
-            <h3 class="persianFont myDirection">مطالبی که در سفر به شما کمک می کند</h3>
-            <ul class="icons wow fadeInUp" data-wow-delay="0.4s">
-                <li>
-                    <i class="icon1" title="مکان اقامت مناسب"> </i>
-                    <span class="one"> </span>
-                </li>
-                <li>
-                    <i class="icon2" title="خاطرات، تجربیات و نظرات دیگران"> </i>
-                    <span class="two"> </span>
-                </li>
-                <li>
-                    <i class="icon3" title="استراحت و تفریح"> </i>
-                    <span class="three"> </span>
-                </li>
-                <li>
-                    <i class="icon4" title="غذاخوری و ذستوران های مناسب"> </i>
-                    <span class="four"> </span>
-                </li>
-                <li>
-                    <i class="icon5" title="تورهای منطقه"> </i>
-                </li>
-            </ul>
-            <div class="real">
-                <h4 class="persianFont myDirection">اهمیت موضوع</h4>
-                <div class="col-sm-6">
-                    <ul class="service_grid">
-                        <i class="s1"> </i>
-                        <li class="desc1 wow fadeInRight" data-wow-delay="0.4s">
-                            <p class="persianFont">هرسال با فرارسیدن تعطیلات مختلف، شمال کشور، به یکی از شلوغ‌ترین منطقه
-                                ‌های کشور تبدیل می‌شود و خیلی از مردم از سراسر
-                                ایران برای سپری کردن تعطیلات، دریای خزر و طبیعت سرسبز شمال را مسیر نوروزی خود انتخاب
-                                می‌کنند. با دانستن زمان مناسب
-                                برای سفر و خبر از قیمت ها و مکان ها می توان لذت بیشتری از سفر برد</p>
-                        </li>
-                        <div class="clearfix"></div>
-                    </ul>
+            <div class="offering">
+                <h2 class="persianFont myDirection">خدمات ما</h2>
+                <h3 class="persianFont myDirection">مطالبی که در سفر به شما کمک می کند</h3>
+                <ul class="icons wow fadeInUp" data-wow-delay="0.4s">
+                    <li>
+                        <i class="icon1" title="مکان اقامت مناسب"> </i>
+                        <span class="one"> </span>
+                    </li>
+                    <li>
+                        <i class="icon2" title="خاطرات، تجربیات و نظرات دیگران"> </i>
+                        <span class="two"> </span>
+                    </li>
+                    <li>
+                        <i class="icon3" title="استراحت و تفریح"> </i>
+                        <span class="three"> </span>
+                    </li>
+                    <li>
+                        <i class="icon4" title="غذاخوری و ذستوران های مناسب"> </i>
+                        <span class="four"> </span>
+                    </li>
+                    <li>
+                        <i class="icon5" title="تورهای منطقه"> </i>
+                    </li>
+                </ul>
+                <div class="real">
+                    <h4 class="persianFont myDirection">اهمیت موضوع</h4>
+                    <div class="col-sm-6">
+                        <ul class="service_grid">
+                            <i class="s1"> </i>
+                            <li class="desc1 wow fadeInRight" data-wow-delay="0.4s">
+                                <p class="persianFont">هرسال با فرارسیدن تعطیلات مختلف، شمال کشور، به یکی از شلوغ‌ترین
+                                    منطقه
+                                    ‌های کشور تبدیل می‌شود و خیلی از مردم از سراسر
+                                    ایران برای سپری کردن تعطیلات، دریای خزر و طبیعت سرسبز شمال را مسیر نوروزی خود
+                                    انتخاب
+                                    می‌کنند. با دانستن زمان مناسب
+                                    برای سفر و خبر از قیمت ها و مکان ها می توان لذت بیشتری از سفر برد</p>
+                            </li>
+                            <div class="clearfix"></div>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6">
+                        <ul class="service_grid">
+                            <i class="s2"> </i>
+                            <li class="desc1 wow fadeInRight" data-wow-delay="0.4s">
+                                <p class="persianFont">مجموعه ای از عوامل فرهنگی، سیاسی، طبیعی و تاریخی دست در دست
+                                    یکدیگر
+                                    داده اند تا رفتار و روحیات مردم در جای جای ایران
+                                    با یکدیگر متفاوت باشد.</p>
+                                <p class="persianFont">اطلاع از ویژگی ها ما را در دانستن رفتارو فرهنگ های مختلف یاری می
+                                    کند.</p>
+                            </li>
+                            <div class="clearfix"></div>
+                        </ul>
+                    </div>
+                    <div class="clearfix"></div>
                 </div>
-                <div class="col-sm-6">
-                    <ul class="service_grid">
-                        <i class="s2"> </i>
-                        <li class="desc1 wow fadeInRight" data-wow-delay="0.4s">
-                            <p class="persianFont">مجموعه ای از عوامل فرهنگی، سیاسی، طبیعی و تاریخی دست در دست یکدیگر
-                                داده اند تا رفتار و روحیات مردم در جای جای ایران
-                                با یکدیگر متفاوت باشد.</p>
-                            <p class="persianFont">اطلاع از ویژگی ها ما را در دانستن رفتارو فرهنگ های مختلف یاری می
-                                کند.</p>
-                        </li>
-                        <div class="clearfix"></div>
-                    </ul>
-                </div>
-                <div class="clearfix"></div>
             </div>
         </div>
     </div>
-</div>
-</div>
-<!---- Start footer  ----->
-<div class="footer">
-    <div class="container">
-        <div class="row">
-            <!---- Start footer top ----->
-            <div class="footer_top">
-                <h3 class="persianFont myDirection">عضویت در خبرنامه</h3>
-                <form method="post">
-					<span>
-						<i>
-							<img src="images/mail.png" alt="">
-						</i>
-						<input type="text" value="Enter your email" onfocus="this.value = '';"
-                               onblur="if (this.value == '') {this.value = 'Enter your email: mail@mail.com';}">
-						<label class="btn1 btn2 btn-2 btn-2g ">
-							<input class="persianFont  " style="background-color: #f19e1f" name="submit" type="submit" id=""
-                                   value="ثبت ایمیل"> </label>
-						<div class="clearfix"> </div>
-					</span>
-                </form>
+    </div>
+    <!---- Start footer  ----->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <!---- Start footer top ----->
+                <div class="footer_top">
+                    <h3 class="persianFont myDirection">عضویت در خبرنامه</h3>
+                    <form method="post">
+                        <span>
+                            <i>
+                                <img src="images/mail.png" alt="">
+                            </i>
+                            <input type="text" value="Enter your email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter your email: mail@mail.com';}">
+                            <label class="btn1 btn2 btn-2 btn-2g ">
+                                <input class="persianFont  " style="background-color: #f19e1f" name="submit" type="submit"
+                                    id="" value="ثبت ایمیل"> </label>
+                            <div class="clearfix"> </div>
+                        </span>
+                    </form>
 
-            </div>
-            <!---- End footer top ----->
-            <!---- Start footer grids ----->
-            <div class="footer_grids">
-                <div class="col-lg-4 col-sm-12 footer-grid2   ">
-                    <h4 class="persianFont myDirection">دسترسی به صفحات</h4>
-                    <ul class="list1">
-                        <li>
-                            <a class="persianFont myDirection" href="#">صفحه اصلی</a>
-                        </li>
-                        <li>
-                            <a class="persianFont myDirection" href="#">ویلا ها</a>
-                        </li>
-                        <li>
-                            <a class="persianFont myDirection" href="#">اخبار</a>
-                        </li>
-                        <li>
-                            <a class="persianFont myDirection" href="#">گالری عکس ها</a>
-                        </li>
-                    </ul>
                 </div>
-                <div class="col-lg-4 col-sm-12 footer-grid2 ">
-                    <h4 class="persianFont myDirection">ارتباط با ما</h4>
-                    <ul class="list1">
-                        <li>
-                            <a class="persianFont myDirection" href="contact.html">تماس با ما</a>
-                        </li>
-                        <li>
-                            <a class="persianFont myDirection" href="#">درباره ما</a>
-                        </li>
-                        <!-- <li>
+                <!---- End footer top ----->
+                <!---- Start footer grids ----->
+                <div class="footer_grids">
+                    <div class="col-lg-4 col-sm-12 footer-grid2   ">
+                        <h4 class="persianFont myDirection">دسترسی به صفحات</h4>
+                        <ul class="list1">
+                            <li>
+                                <a class="persianFont myDirection" href="#">صفحه اصلی</a>
+                            </li>
+                            <li>
+                                <a class="persianFont myDirection" href="#">ویلا ها</a>
+                            </li>
+                            <li>
+                                <a class="persianFont myDirection" href="#">اخبار</a>
+                            </li>
+                            <li>
+                                <a class="persianFont myDirection" href="#">گالری عکس ها</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-sm-12 footer-grid2 ">
+                        <h4 class="persianFont myDirection">ارتباط با ما</h4>
+                        <ul class="list1">
+                            <li>
+                                <a class="persianFont myDirection" href="contact.html">تماس با ما</a>
+                            </li>
+                            <li>
+                                <a class="persianFont myDirection" href="#">درباره ما</a>
+                            </li>
+                            <!-- <li>
                             <a href="#">Sollemnes </a>
                         </li>
                         <li>
@@ -457,136 +583,141 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         <li>
                             <a href="#">Mirum est</a>
                         </li> -->
-                    </ul>
-                </div>
-                <div class="col-lg-4 col-sm-12 footer-grid2 last_grid ">
-                    <h4 class="persianFont myDirection text-center ">ما را در شبانه روزکه های اجتماعی دنبال کنید</h4>
-                    <ul class="footer_social wow fadeInLeft" data-wow-delay="0.4s">
-                        <li>
-                            <a href="">
-                                <i class="fb"> </i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <i class="tw"> </i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <i class="google"> </i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <i class="u_tube"> </i>
-                            </a>
-                        </li>
-                    </ul>
-                    <div class="copy wow fadeInRight" data-wow-delay="0.4s">
-                        <p class="myDirection persianFont text-center"> حقوق مادی معنوی متعلق به سایت ما می باشد.
-                        </p>
-                        <!-- <p> &copy; 2016 Hotel Deluxe. All rights reserved | Design by
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-sm-12 footer-grid2 last_grid ">
+                        <h4 class="persianFont myDirection text-center ">ما را در شبانه روزکه های اجتماعی دنبال کنید</h4>
+                        <ul class="footer_social wow fadeInLeft" data-wow-delay="0.4s">
+                            <li>
+                                <a href="">
+                                    <i class="fb"> </i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="tw"> </i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="google"> </i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="u_tube"> </i>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="copy wow fadeInRight" data-wow-delay="0.4s">
+                            <p class="myDirection persianFont text-center"> حقوق مادی معنوی متعلق به سایت ما می باشد.
+                            </p>
+                            <!-- <p> &copy; 2016 Hotel Deluxe. All rights reserved | Design by
                             <a href="http://w3layouts.com/">W3layouts</a>
                         </p> -->
+                        </div>
                     </div>
+                    <div class="clearfix"></div>
                 </div>
-                <div class="clearfix"></div>
+                <!---- End footer grids ----->
             </div>
-            <!---- End footer grids ----->
         </div>
     </div>
-</div>
-<!---- End footer  ----->
+    <!---- End footer  ----->
 
-<script>
-    var subjectObj = $('#subjectDiv select');
-    subjectObj.change(function () {
-        do_filter();
-    });
+    <script>
+        var subjectObj = $('#subjectDiv select');
+        subjectObj.change(function () {
+            do_filter();
+        });
 
-    var cityObj = $('#cityDiv select');
-    cityObj.change(function () {
-        do_filter();
-    });
+        var cityObj = $('#cityDiv select');
+        cityObj.change(function () {
+            do_filter();
+        });
 
-    $('.filter2 li a').on('click', function (e) {
-        e.preventDefault();
-        var $this = $(this).children('i');
-        $this.toggleClass('disable');
-        //console.log($this);
+        $('.filter2 li a').on('click', function (e) {
+            e.preventDefault();
+            var $this = $(this).children('i');
+            $this.toggleClass('disable');
+            //console.log($this);
 
-    });
+        });
 
-    // var boxes = $('.content_middle_box div.index-grids');
+        $(document).ready(function () {
+            $('.js-example-basic').select2({
+                dir: "rtl"
+            });
+        });
+        // var boxes = $('.content_middle_box div.index-grids');
 
-    // function do_filter() {
-    // 	var subject = subjectObj[0].value;
-    // 	var city = cityObj[0].value;
+        // function do_filter() {
+        // 	var subject = subjectObj[0].value;
+        // 	var city = cityObj[0].value;
 
-    // 	var filterIcons = $('.filter2>li>a>i.little-icon').not('.disable');
-    // 	var filters = [];
-    // 	filterIcons.each(function () {
-    // 		filters.push($(this).attr('class').split(' ')[1]);
-    // 	});
+        // 	var filterIcons = $('.filter2>li>a>i.little-icon').not('.disable');
+        // 	var filters = [];
+        // 	filterIcons.each(function () {
+        // 		filters.push($(this).attr('class').split(' ')[1]);
+        // 	});
 
-    // 	if (subject == 'all' && city == 'all') {
-    // 		boxes.removeClass('is-animated')
-    // 			.fadeOut().promise().done(function () {
-    // 				boxes.addClass('is-animated').fadeIn();
-    // 			});
-    // 	} else if (city == 'all') {
-    // 		boxes.removeClass('is-animated')
-    // 			.fadeOut().promise().done(function () {
-    // 				boxes.filter('[data-subject = "' + subject + '"]')
-    // 					.addClass('is-animated').fadeIn();
-    // 			});
-    // 	} else if (subject == 'all') {
-    // 		boxes.removeClass('is-animated')
-    // 			.fadeOut().promise().done(function () {
-    // 				boxes.filter('[data-city = "' + city + '"]')
-    // 					.addClass('is-animated').fadeIn();
-    // 			});
-    // 	} else {
-    // 		boxes.removeClass('is-animated')
-    // 			.fadeOut().promise().done(function () {
-    // 				boxes.filter('[data-city = "' + city + '"][data-subject = "' + subject + '"]')
-    // 					.addClass('is-animated').fadeIn();
-    // 			});
-    // 	}
-    // }
+        // 	if (subject == 'all' && city == 'all') {
+        // 		boxes.removeClass('is-animated')
+        // 			.fadeOut().promise().done(function () {
+        // 				boxes.addClass('is-animated').fadeIn();
+        // 			});
+        // 	} else if (city == 'all') {
+        // 		boxes.removeClass('is-animated')
+        // 			.fadeOut().promise().done(function () {
+        // 				boxes.filter('[data-subject = "' + subject + '"]')
+        // 					.addClass('is-animated').fadeIn();
+        // 			});
+        // 	} else if (subject == 'all') {
+        // 		boxes.removeClass('is-animated')
+        // 			.fadeOut().promise().done(function () {
+        // 				boxes.filter('[data-city = "' + city + '"]')
+        // 					.addClass('is-animated').fadeIn();
+        // 			});
+        // 	} else {
+        // 		boxes.removeClass('is-animated')
+        // 			.fadeOut().promise().done(function () {
+        // 				boxes.filter('[data-city = "' + city + '"][data-subject = "' + subject + '"]')
+        // 					.addClass('is-animated').fadeIn();
+        // 			});
+        // 	}
+        // }
 
-    //if (str.indexOf("Yes") >= 0)
-    //if (~str.indexOf("Yes"))
-    //$(this)[0].hasAttribute("name");
-    //<div class="col-md-3 index-grids" data-city="ramsar" data-subject="house">
+        //if (str.indexOf("Yes") >= 0)
+        //if (~str.indexOf("Yes"))
+        //$(this)[0].hasAttribute("name");
+        //<div class="col-md-3 index-grids" data-city="ramsar" data-subject="house">
 
-    // var $filters = $('.filter [data-filter]'),
-    // 	$boxes = $('.boxes [data-category]');
+        // var $filters = $('.filter [data-filter]'),
+        // 	$boxes = $('.boxes [data-category]');
 
-    // $filters.on('click', function (e) {
-    // 	e.preventDefault();
-    // 	var $this = $(this);
-    // 	$filters.removeClass('active');
-    // 	$this.addClass('active');
+        // $filters.on('click', function (e) {
+        // 	e.preventDefault();
+        // 	var $this = $(this);
+        // 	$filters.removeClass('active');
+        // 	$this.addClass('active');
 
-    // 	var $filterColor = $this.attr('data-filter');
+        // 	var $filterColor = $this.attr('data-filter');
 
-    // 	if ($filterColor == 'all') {
-    // 		$boxes.removeClass('is-animated')
-    // 			.fadeOut().promise().done(function () {
-    // 				$boxes.addClass('is-animated').fadeIn();
-    // 			});
-    // 	} else {
-    // 		$boxes.removeClass('is-animated')
-    // 			.fadeOut().promise().done(function () {
-    // 				$boxes.filter('[data-category = "' + $filterColor + '"]')
-    // 					.addClass('is-animated').fadeIn();
-    // 			});
-    // 	}
-    // });
-    //https://www.sitepoint.com/building-a-filtering-component-with-css-animations-jquery/
-</script>
+        // 	if ($filterColor == 'all') {
+        // 		$boxes.removeClass('is-animated')
+        // 			.fadeOut().promise().done(function () {
+        // 				$boxes.addClass('is-animated').fadeIn();
+        // 			});
+        // 	} else {
+        // 		$boxes.removeClass('is-animated')
+        // 			.fadeOut().promise().done(function () {
+        // 				$boxes.filter('[data-category = "' + $filterColor + '"]')
+        // 					.addClass('is-animated').fadeIn();
+        // 			});
+        // 	}
+        // });
+        //https://www.sitepoint.com/building-a-filtering-component-with-css-animations-jquery/
+    </script>
 </body>
 
 </html>
